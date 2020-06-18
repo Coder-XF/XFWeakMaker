@@ -14,6 +14,10 @@
 		0368EA93249BBCC000167CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0368EA92249BBCC000167CCC /* Assets.xcassets */; };
 		0368EA96249BBCC000167CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0368EA94249BBCC000167CCC /* LaunchScreen.storyboard */; };
 		0368EA99249BBCC100167CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0368EA98249BBCC100167CCC /* main.m */; };
+		0368EAA1249BBD1E00167CCC /* XFDeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0368EAA0249BBD1E00167CCC /* XFDeallocBlock.m */; };
+		0368EAA4249BBE4E00167CCC /* NSObject+deallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0368EAA3249BBE4E00167CCC /* NSObject+deallocBlock.m */; };
+		0368EAA7249BC01100167CCC /* XFTestA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0368EAA6249BC01100167CCC /* XFTestA.m */; };
+		0368EAAA249BC01A00167CCC /* XFTestB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0368EAA9249BC01A00167CCC /* XFTestB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		0368EA95249BBCC000167CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0368EA97249BBCC000167CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0368EA98249BBCC100167CCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0368EA9F249BBD1E00167CCC /* XFDeallocBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFDeallocBlock.h; sourceTree = "<group>"; };
+		0368EAA0249BBD1E00167CCC /* XFDeallocBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFDeallocBlock.m; sourceTree = "<group>"; };
+		0368EAA2249BBE4E00167CCC /* NSObject+deallocBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+deallocBlock.h"; sourceTree = "<group>"; };
+		0368EAA3249BBE4E00167CCC /* NSObject+deallocBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+deallocBlock.m"; sourceTree = "<group>"; };
+		0368EAA5249BC01100167CCC /* XFTestA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFTestA.h; sourceTree = "<group>"; };
+		0368EAA6249BC01100167CCC /* XFTestA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFTestA.m; sourceTree = "<group>"; };
+		0368EAA8249BC01A00167CCC /* XFTestB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFTestB.h; sourceTree = "<group>"; };
+		0368EAA9249BC01A00167CCC /* XFTestB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFTestB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,14 @@
 		0368EA85249BBCBC00167CCC /* XFWeakMakerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0368EA9F249BBD1E00167CCC /* XFDeallocBlock.h */,
+				0368EAA0249BBD1E00167CCC /* XFDeallocBlock.m */,
+				0368EAA2249BBE4E00167CCC /* NSObject+deallocBlock.h */,
+				0368EAA3249BBE4E00167CCC /* NSObject+deallocBlock.m */,
+				0368EAA5249BC01100167CCC /* XFTestA.h */,
+				0368EAA6249BC01100167CCC /* XFTestA.m */,
+				0368EAA8249BC01A00167CCC /* XFTestB.h */,
+				0368EAA9249BC01A00167CCC /* XFTestB.m */,
 				0368EA86249BBCBC00167CCC /* AppDelegate.h */,
 				0368EA87249BBCBC00167CCC /* AppDelegate.m */,
 				0368EA89249BBCBC00167CCC /* SceneDelegate.h */,
@@ -149,6 +169,10 @@
 				0368EA8E249BBCBC00167CCC /* ViewController.m in Sources */,
 				0368EA88249BBCBC00167CCC /* AppDelegate.m in Sources */,
 				0368EA99249BBCC100167CCC /* main.m in Sources */,
+				0368EAA1249BBD1E00167CCC /* XFDeallocBlock.m in Sources */,
+				0368EAAA249BC01A00167CCC /* XFTestB.m in Sources */,
+				0368EAA4249BBE4E00167CCC /* NSObject+deallocBlock.m in Sources */,
+				0368EAA7249BC01100167CCC /* XFTestA.m in Sources */,
 				0368EA8B249BBCBC00167CCC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
